@@ -1,1 +1,3 @@
 # Judge
+
+For this program, it consists of 2 functions findJudge and main. FindJudge takes in an integer called townNumber and a multidimensional array called trust. It creates an array variable with the size of the townNumber plus 1. It then takes a loop with the multidimensional array size and creates a single array and decrements the people that do not trust the judge and increments the judge. It then loops through the townNumber and returns the judge if it comes across the townNumber - 1 or returns -1 if it doesnt. In the main, we add sets of numbers in a multidimensional array and call findJudge in each of the 5 sets and returns the judge number.
